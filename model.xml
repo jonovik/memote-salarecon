@@ -1962,36 +1962,6 @@
           </rdf:RDF>
         </sbml:annotation>
       </species>
-      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_Quinol_m" name="Quinol" metaid="M_Quinol_m" sboTerm="{'SBO:0000247'}" compartment="m" fbc:charge="0" fbc:chemicalFormula="C6H6O2">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#M_Quinol_m">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/cas/123-31-9"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00530"/>
-                  <rdf:li rdf:resource="http://identifiers.org/pubchem.compound/785"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-      </species>
-      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_Quinone_m" name="Quinone" metaid="M_Quinone_m" sboTerm="{'SBO:0000247'}" compartment="m" fbc:charge="0" fbc:chemicalFormula="C6H4O2">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#M_Quinone_m">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/cas/106-51-4"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00472"/>
-                  <rdf:li rdf:resource="http://identifiers.org/pubchem.compound/4650"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-      </species>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_RNA_c" name="RNA" metaid="M_RNA_c" sboTerm="{'SBO:0000250'}" compartment="c" fbc:charge="-3310" fbc:chemicalFormula="C24740H27431N9506O18284P2621">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -14040,7 +14010,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction fast="false" id="R_sdh" reversible="true" name="succinate dehydrogenase" metaid="R_sdh" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+      <reaction fast="false" id="R_sdh" reversible="false" name="succinate dehydrogenase" metaid="R_sdh" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#R_sdh">
@@ -14600,7 +14570,26 @@
           <fbc:geneProductRef fbc:geneProduct="G_100380763"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction fast="false" id="R_ATPase" reversible="false" name="[]" metaid="R_ATPase" sboTerm="{'SBO:0000655'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_aac1" reversible="false" name="[106602726, 106611749, 106604721, 106563614, 106603043]" metaid="R_aac1" sboTerm="{'SBO:0000655'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#R_aac1">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag/>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+        <listOfReactants>
+          <speciesReference constant="true" species="M_ADP_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_ATP_m" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_ADP_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_ATP_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction fast="false" id="R_ATPase" reversible="false" name="[100136392, 100194574, 100194592, 100194602, 100194606, 100194625, 100194626, 100194724, 100194974, 100195520, 100196208, 100196670, 100196679, 100196724, 100196791, 100286661, 106560679, 106561370, 106563029, 106563054, 106563184, 106563593, 106564794, 106566310, 106566373, 106567107, 106567829, 106568806, 106569424, 106569765, 106571673, 106571961, 106572621, 106572983, 106573602, 106574334, 106574550, 106575112, 106576202, 106576269, 106578297, 106579135, 106579140, 106579190, 106579446, 106579607, 106580324, 106580568, 106583886, 106584979, 106586630, 106588021, 106590033, 106590474, 106592993, 106595437, 106595987, 106596026, 106599388, 106600679, 106600830, 106601026, 106602047, 106602876, 106603053, 106603810, 106603876, 106604209, 106604294, 106604771, 106605527, 106607300, 106607492, 106608215, 106609141, 106609471, 106609897, 106612155, 106612246, 106613744, 808310, 808313]" metaid="R_ATPase" sboTerm="{'SBO:0000655'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#R_ATPase">
@@ -14612,19 +14601,19 @@
         </sbml:annotation>
         <listOfReactants>
           <speciesReference constant="true" species="M_ADP_m" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_H_in_c" stoichiometry="3"/>
+          <speciesReference constant="true" species="M_H_in_c" stoichiometry="4"/>
           <speciesReference constant="true" species="M_Orthophosphate_m" stoichiometry="1"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference constant="true" species="M_ATP_m" stoichiometry="1"/>
           <speciesReference constant="true" species="M_H2O_m" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_m" stoichiometry="2"/>
+          <speciesReference constant="true" species="M_h_m" stoichiometry="3"/>
         </listOfProducts>
       </reaction>
-      <reaction fast="false" id="R_cyto" reversible="false" name="[]" metaid="R_cyto" sboTerm="{'SBO:0000655'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_cbc1" reversible="false" name="[106561396, 106562006, 106565051, 106565806, 106568198, 106569530, 106570481, 106574032, 106582630, 106582918, 106587304, 106588914, 106589600, 106595415, 106598937, 106601733, 106604229, 106606671, 106606732, 106609984, 106612226, 106613551, 808306]" metaid="R_cbc1" sboTerm="{'SBO:0000655'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#R_cyto">
+            <rdf:Description rdf:about="#R_cbc1">
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
                 <rdf:Bag/>
               </bqbiol:is>
@@ -14642,50 +14631,10 @@
           <speciesReference constant="true" species="M_H_in_c" stoichiometry="4"/>
         </listOfProducts>
       </reaction>
-      <reaction fast="false" id="R_gpd2" reversible="false" name="[106575774, 106574870, 106581822]" metaid="R_gpd2" sboTerm="{'SBO:0000655'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_cco1" reversible="false" name="[106561622, 106561721, 106562120, 106562286, 106563057, 106563661, 106565035, 106566437, 106567989, 106568019, 106569998, 106571296, 106571735, 106572113, 106572114, 106573095, 106573685, 106576754, 106576835, 106576860, 106578938, 106579249, 106579596, 106579942, 106580140, 106580767, 106584709, 106585487, 106585766, 106587211, 106587370, 106602990, 106603475, 106605225, 106605843, 106606878, 106606889, 106607688, 106610772, 106612682, 808307, 808314, 808315]" metaid="R_cco1" sboTerm="{'SBO:0000655'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#R_gpd2">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag/>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-        <listOfReactants>
-          <speciesReference constant="true" species="M_Quinone_m" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_sn_Glycerol_3_phosphate_c" stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_Glycerone_phosphate_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_Quinol_m" stoichiometry="1"/>
-        </listOfProducts>
-      </reaction>
-      <reaction fast="false" id="R_OxPhos_complex_I" reversible="false" name="[]" metaid="R_OxPhos_complex_I" sboTerm="{'SBO:0000655'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#R_OxPhos_complex_I">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag/>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-        <listOfReactants>
-          <speciesReference constant="true" species="M_CoQ_m" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_NADH_m" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_m" stoichiometry="5"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_CoQH2_m" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_H_in_c" stoichiometry="4"/>
-          <speciesReference constant="true" species="M_NAD_m" stoichiometry="1"/>
-        </listOfProducts>
-      </reaction>
-      <reaction fast="false" id="R_OxPhos_complex_IV" reversible="false" name="[]" metaid="R_OxPhos_complex_IV" sboTerm="{'SBO:0000655'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#R_OxPhos_complex_IV">
+            <rdf:Description rdf:about="#R_cco1">
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
                 <rdf:Bag/>
               </bqbiol:is>
@@ -14703,6 +14652,65 @@
           <speciesReference constant="true" species="M_H_in_c" stoichiometry="4"/>
         </listOfProducts>
       </reaction>
+      <reaction fast="false" id="R_gpd2" reversible="false" name="[106575774, 106574870, 106581822]" metaid="R_gpd2" sboTerm="{'SBO:0000655'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#R_gpd2">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag/>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+        <listOfReactants>
+          <speciesReference constant="true" species="M_CoQ_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_sn_Glycerol_3_phosphate_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_CoQH2_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_Glycerone_phosphate_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction fast="false" id="R_ndh1" reversible="false" name="[100194687, 100194699, 100195773, 100195906, 100195967, 100196034, 100196139, 100196155, 100196177, 100196205, 100196355, 100196528, 100286592, 100286672, 106561367, 106561701, 106561942, 106563745, 106566125, 106566700, 106566834, 106568384, 106569554, 106570015, 106570329, 106570923, 106571957, 106572044, 106573192, 106573873, 106574141, 106574822, 106575725, 106576117, 106576359, 106577308, 106578447, 106581904, 106582434, 106582674, 106586260, 106586278, 106587101, 106588156, 106588361, 106588463, 106588702, 106591659, 106592348, 106593632, 106593660, 106596057, 106596259, 106596517, 106599655, 106600555, 106601603, 106601814, 106602078, 106602281, 106602580, 106602938, 106604444, 106605789, 106605799, 106606616, 106606642, 106607109, 106607130, 106608746, 106609195, 106609400, 106609477, 106609902, 106610322, 106611562, 106611680, 106611778, 106613652, 106613708, 808305, 808308, 808309, 808311, 808312, 808316, 808317]" metaid="R_ndh1" sboTerm="{'SBO:0000655'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#R_ndh1">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag/>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+        <listOfReactants>
+          <speciesReference constant="true" species="M_CoQ_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_NADH_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_h_m" stoichiometry="5"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_CoQH2_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_H_in_c" stoichiometry="4"/>
+          <speciesReference constant="true" species="M_NAD_m" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction fast="false" id="R_PiC" reversible="false" name="[106561671, 106576021, 106573070]" metaid="R_PiC" sboTerm="{'SBO:0000655'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#R_PiC">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag/>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+        <listOfReactants>
+          <speciesReference constant="true" species="M_H_in_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_Orthophosphate_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_Orthophosphate_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_h_m" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
       <reaction fast="false" id="R_pyr7" reversible="false" name="[106587250]" metaid="R_pyr7" sboTerm="{'SBO:0000655'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -14714,12 +14722,12 @@
           </rdf:RDF>
         </sbml:annotation>
         <listOfReactants>
-          <speciesReference constant="true" species="M_Quinone_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_CoQ_m" stoichiometry="1"/>
           <speciesReference constant="true" species="M_S_dihydroorotate_c" stoichiometry="1"/>
         </listOfReactants>
         <listOfProducts>
+          <speciesReference constant="true" species="M_CoQH2_m" stoichiometry="1"/>
           <speciesReference constant="true" species="M_Orotate_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_Quinol_m" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
       <reaction fast="false" id="R_T_AGC_mit" reversible="false" name="[]" metaid="R_T_AGC_mit" sboTerm="{'SBO:0000655'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
