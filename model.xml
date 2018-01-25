@@ -5555,6 +5555,32 @@
           </rdf:RDF>
         </sbml:annotation>
       </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_106570297" fbc:label="106570297" fbc:name="106570297" metaid="G_106570297" sboTerm="{'SBO:0000243'}">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#G_106570297">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/106570297"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_100195141" fbc:label="100195141" fbc:name="100195141" metaid="G_100195141" sboTerm="{'SBO:0000243'}">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#G_100195141">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/100195141"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_100196035" fbc:label="100196035" fbc:name="100196035" metaid="G_100196035" sboTerm="{'SBO:0000243'}">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -16385,6 +16411,39 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_106602838"/>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_asn1" reversible="false" name="asparagine synthetase" metaid="R_asn1" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#R_asn1">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/6.3.5.4"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00578"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+        <listOfReactants>
+          <speciesReference constant="true" species="M_ATP_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_H2O_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_L_Aspartate_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_L_Glutamine_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_AMP_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_L_Asparagine_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_L_Glutamate_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_Pyrophosphate_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_h_c" stoichiometry="2"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_100195141"/>
+            <fbc:geneProductRef fbc:geneProduct="G_106570297"/>
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_ass" reversible="false" name="argininosuccinate synthase" metaid="R_ass" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
