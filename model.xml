@@ -5245,45 +5245,6 @@
           </rdf:RDF>
         </sbml:annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_106560768" fbc:label="106560768" fbc:name="106560768" metaid="G_106560768" sboTerm="{'SBO:0000243'}">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#G_106560768">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/106560768"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_106568712" fbc:label="106568712" fbc:name="106568712" metaid="G_106568712" sboTerm="{'SBO:0000243'}">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#G_106568712">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/106568712"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_106610712" fbc:label="106610712" fbc:name="106610712" metaid="G_106610712" sboTerm="{'SBO:0000243'}">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#G_106610712">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/106610712"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_106574201" fbc:label="106574201" fbc:name="106574201" metaid="G_106574201" sboTerm="{'SBO:0000243'}">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -9158,19 +9119,6 @@
           </rdf:RDF>
         </sbml:annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_106588424" fbc:label="106588424" fbc:name="106588424" metaid="G_106588424" sboTerm="{'SBO:0000243'}">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#G_106588424">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/106588424"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_106565361" fbc:label="106565361" fbc:name="106565361" metaid="G_106565361" sboTerm="{'SBO:0000243'}">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -9256,19 +9204,6 @@
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/106605855"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_106576545" fbc:label="106576545" fbc:name="106576545" metaid="G_106576545" sboTerm="{'SBO:0000243'}">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#G_106576545">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/106576545"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -10244,45 +10179,6 @@
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/106589416"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_106585167" fbc:label="106585167" fbc:name="106585167" metaid="G_106585167" sboTerm="{'SBO:0000243'}">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#G_106585167">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/106585167"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_106580581" fbc:label="106580581" fbc:name="106580581" metaid="G_106580581" sboTerm="{'SBO:0000243'}">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#G_106580581">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/106580581"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_106568010" fbc:label="106568010" fbc:name="106568010" metaid="G_106568010" sboTerm="{'SBO:0000243'}">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#G_106568010">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/106568010"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14124,19 +14020,6 @@
           </rdf:RDF>
         </sbml:annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_106582566" fbc:label="106582566" fbc:name="106582566" metaid="G_106582566" sboTerm="{'SBO:0000243'}">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#G_106582566">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/106582566"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_100380410" fbc:label="100380410" fbc:name="100380410" metaid="G_100380410" sboTerm="{'SBO:0000243'}">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -14144,32 +14027,6 @@
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/100380410"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_106572730" fbc:label="106572730" fbc:name="106572730" metaid="G_106572730" sboTerm="{'SBO:0000243'}">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#G_106572730">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/106572730"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_106572792" fbc:label="106572792" fbc:name="106572792" metaid="G_106572792" sboTerm="{'SBO:0000243'}">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#G_106572792">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/106572792"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14261,19 +14118,6 @@
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/106589759"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_106561646" fbc:label="106561646" fbc:name="106561646" metaid="G_106561646" sboTerm="{'SBO:0000243'}">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#G_106561646">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/106561646"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17200,66 +17044,6 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction fast="false" id="R_adpgk1" reversible="false" name="ADP dependent glucokinase" metaid="R_adpgk1" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#R_adpgk1">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.147"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R09085"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-        <listOfReactants>
-          <speciesReference constant="true" species="M_ATP_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_alpha_D_Glucose_c" stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_ADP_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_alpha_D_Glucose_6_phosphate_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_106560768"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106568712"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106610712"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction fast="false" id="R_adpgk2" reversible="false" name="ADP dependent glucokinase" metaid="R_adpgk2" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#R_adpgk2">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.147"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R09086"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-        <listOfReactants>
-          <speciesReference constant="true" species="M_ATP_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_beta_D_Glucose_c" stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_ADP_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_beta_D_Glucose_6_phosphate_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_106560768"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106568712"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106610712"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction fast="false" id="R_agt" reversible="true" name="alanine-glyoxylate aminotransferase" metaid="R_agt" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -18850,8 +18634,6 @@
             <fbc:geneProductRef fbc:geneProduct="G_100196671"/>
             <fbc:geneProductRef fbc:geneProduct="G_106565361"/>
             <fbc:geneProductRef fbc:geneProduct="G_106566383"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106576545"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106588424"/>
             <fbc:geneProductRef fbc:geneProduct="G_106595066"/>
             <fbc:geneProductRef fbc:geneProduct="G_106605855"/>
           </fbc:or>
@@ -19128,6 +18910,7 @@
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/4.1.2.13"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R01068"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -19710,36 +19493,6 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction fast="false" id="R_glk1" reversible="false" name="glucokinase-like" metaid="R_glk1" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#R_glk1">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R01786"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-        <listOfReactants>
-          <speciesReference constant="true" species="M_ATP_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_alpha_D_Glucose_c" stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_ADP_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_alpha_D_Glucose_6_phosphate_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_106580581"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106585167"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106568010"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction fast="false" id="R_glk1_2" reversible="false" name="GLUCOKINASE" metaid="R_glk1_2" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -19763,36 +19516,6 @@
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_YCL040W"/>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction fast="false" id="R_glk2" reversible="false" name="glucokinase-like" metaid="R_glk2" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#R_glk2">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R01600"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-        <listOfReactants>
-          <speciesReference constant="true" species="M_ATP_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_beta_D_Glucose_c" stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_ADP_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_beta_D_Glucose_6_phosphate_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_106580581"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106585167"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106568010"/>
-          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_gln1" reversible="false" name="glutamine synthetase" metaid="R_gln1" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -21542,6 +21265,43 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
+      <reaction fast="false" id="R_ndk9" reversible="true" name="nucleoside-diphosphate kinase" metaid="R_ndk9" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#R_ndk9">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.4.6"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00722"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+        <listOfReactants>
+          <speciesReference constant="true" species="M_ATP_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_IDP_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_ADP_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_ITP_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_100136353"/>
+            <fbc:geneProductRef fbc:geneProduct="G_100194591"/>
+            <fbc:geneProductRef fbc:geneProduct="G_100196066"/>
+            <fbc:geneProductRef fbc:geneProduct="G_100196215"/>
+            <fbc:geneProductRef fbc:geneProduct="G_100196339"/>
+            <fbc:geneProductRef fbc:geneProduct="G_106560636"/>
+            <fbc:geneProductRef fbc:geneProduct="G_106565719"/>
+            <fbc:geneProductRef fbc:geneProduct="G_106589447"/>
+            <fbc:geneProductRef fbc:geneProduct="G_106600677"/>
+            <fbc:geneProductRef fbc:geneProduct="G_106607960"/>
+            <fbc:geneProductRef fbc:geneProduct="G_106608324"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
       <reaction fast="false" id="R_npk" reversible="true" name="cytidine/uridine monophosphate kinase" metaid="R_npk" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -22388,10 +22148,10 @@
           <fbc:geneProductRef fbc:geneProduct="G_106613946"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction fast="false" id="R_pfk" reversible="false" name="ATP-dependent 6-phosphofructokinase" metaid="R_pfk" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_pfk1" reversible="false" name="ATP-dependent 6-phosphofructokinase" metaid="R_pfk1" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#R_pfk">
+            <rdf:Description rdf:about="#R_pfk1">
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.11"/>
@@ -22416,12 +22176,9 @@
             <fbc:geneProductRef fbc:geneProduct="G_106565515"/>
             <fbc:geneProductRef fbc:geneProduct="G_106566997"/>
             <fbc:geneProductRef fbc:geneProduct="G_106568830"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106572792"/>
             <fbc:geneProductRef fbc:geneProduct="G_106578535"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106582566"/>
             <fbc:geneProductRef fbc:geneProduct="G_106583067"/>
             <fbc:geneProductRef fbc:geneProduct="G_106593347"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106572730"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -22480,7 +22237,6 @@
             <fbc:geneProductRef fbc:geneProduct="G_106564313"/>
             <fbc:geneProductRef fbc:geneProduct="G_106589759"/>
             <fbc:geneProductRef fbc:geneProduct="G_100196266"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106561646"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -23167,111 +22923,6 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction fast="false" id="R_pyk2" reversible="false" name="pyruvate kinase" metaid="R_pyk2" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#R_pyk2">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.40"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00430"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-        <listOfReactants>
-          <speciesReference constant="true" species="M_GDP_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_Phosphoenolpyruvate_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_GTP_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_Pyruvate_c" stoichiometry="1"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_100195460"/>
-            <fbc:geneProductRef fbc:geneProduct="G_100196674"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106573729"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106574276"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106587214"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106594812"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106605740"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106574626"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction fast="false" id="R_pyk3" reversible="false" name="pyruvate kinase" metaid="R_pyk3" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#R_pyk3">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.40"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00430"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-        <listOfReactants>
-          <speciesReference constant="true" species="M_CDP_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_Phosphoenolpyruvate_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_CTP_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_Pyruvate_c" stoichiometry="1"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_100195460"/>
-            <fbc:geneProductRef fbc:geneProduct="G_100196674"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106573729"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106574276"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106587214"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106594812"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106605740"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106574626"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction fast="false" id="R_pyk4" reversible="false" name="pyruvate kinase" metaid="R_pyk4" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#R_pyk4">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.40"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00659"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-        <listOfReactants>
-          <speciesReference constant="true" species="M_Phosphoenolpyruvate_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_UDP_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_Pyruvate_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_UTP_c" stoichiometry="1"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_100195460"/>
-            <fbc:geneProductRef fbc:geneProduct="G_100196674"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106573729"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106574276"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106587214"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106594812"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106605740"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106574626"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction fast="false" id="R_pyk5" reversible="false" name="pyruvate kinase" metaid="R_pyk5" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -23293,76 +22944,6 @@
         <listOfProducts>
           <speciesReference constant="true" species="M_ITP_c" stoichiometry="1"/>
           <speciesReference constant="true" species="M_Pyruvate_c" stoichiometry="1"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_100195460"/>
-            <fbc:geneProductRef fbc:geneProduct="G_100196674"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106573729"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106574276"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106587214"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106594812"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106605740"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106574626"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction fast="false" id="R_pyk6" reversible="false" name="pyruvate kinase" metaid="R_pyk6" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#R_pyk6">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.40"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R01138"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-        <listOfReactants>
-          <speciesReference constant="true" species="M_Phosphoenolpyruvate_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_dADP_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_Pyruvate_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_dATP_c" stoichiometry="1"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_100195460"/>
-            <fbc:geneProductRef fbc:geneProduct="G_100196674"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106573729"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106574276"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106587214"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106594812"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106605740"/>
-            <fbc:geneProductRef fbc:geneProduct="G_106574626"/>
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction fast="false" id="R_pyk7" reversible="false" name="pyruvate kinase" metaid="R_pyk7" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#R_pyk7">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.40"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R01858"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-        <listOfReactants>
-          <speciesReference constant="true" species="M_Phosphoenolpyruvate_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_dGDP_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_Pyruvate_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_dGTP_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
