@@ -57,6 +57,21 @@
           </rdf:RDF>
         </sbml:annotation>
       </species>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_2_Butenoyl_CoA_m" name="2-Butenoyl-CoA" metaid="M_2_Butenoyl_CoA_m" sboTerm="{'SBO:0000247'}" compartment="m" fbc:charge="-3" fbc:chemicalFormula="C25H37N7O17P3S1">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#M_2_Butenoyl_CoA_m">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/cas/102680-35-3"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00877"/>
+                  <rdf:li rdf:resource="http://identifiers.org/pubchem.compound/5280381"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </species>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_2_Hydroxyethyl_thiamine_diphosphate_m" name="2-Hydroxyethyl-thiamine_diphosphate" metaid="M_2_Hydroxyethyl_thiamine_diphosphate_m" sboTerm="{'SBO:0000247'}" compartment="m" fbc:charge="-1" fbc:chemicalFormula="C14H21N4O8P2S1">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -65,6 +80,21 @@
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C05125"/>
                   <rdf:li rdf:resource="http://identifiers.org/pubchem.compound/440568"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </species>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_2_Oxoadipate_m" name="2-Oxoadipate" metaid="M_2_Oxoadipate_m" sboTerm="{'SBO:0000247'}" compartment="m" fbc:charge="-2" fbc:chemicalFormula="C6H6O5">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#M_2_Oxoadipate_m">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/cas/3184-35-8"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00322"/>
+                  <rdf:li rdf:resource="http://identifiers.org/pubchem.compound/71"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -628,6 +658,21 @@
                   <rdf:li rdf:resource="http://identifiers.org/cas/64-19-7"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00033"/>
                   <rdf:li rdf:resource="http://identifiers.org/pubchem.compound/176"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </species>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_Acetoacetyl_CoA_m" name="Acetoacetyl-CoA" metaid="M_Acetoacetyl_CoA_m" sboTerm="{'SBO:0000247'}" compartment="m" fbc:charge="-3" fbc:chemicalFormula="C25H37N7O18P3S1">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#M_Acetoacetyl_CoA_m">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/cas/1420-36-6"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00332"/>
+                  <rdf:li rdf:resource="http://identifiers.org/pubchem.compound/439214"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -1430,6 +1475,35 @@
           </rdf:RDF>
         </sbml:annotation>
       </species>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_FADH2_m" name="FADH2" metaid="M_FADH2_m" sboTerm="{'SBO:0000247'}" compartment="m" fbc:charge="-1" fbc:chemicalFormula="C27H34N9O15P2">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#M_FADH2_m">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01352"/>
+                  <rdf:li rdf:resource="http://identifiers.org/pubchem.compound/439491"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </species>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_FAD_m" name="FAD" metaid="M_FAD_m" sboTerm="{'SBO:0000247'}" compartment="m" fbc:charge="-1" fbc:chemicalFormula="C27H32N9O15P2">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#M_FAD_m">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/cas/146-14-5"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00016"/>
+                  <rdf:li rdf:resource="http://identifiers.org/pubchem.compound/439154"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </species>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_Folate_c" name="Folate" metaid="M_Folate_c" sboTerm="{'SBO:0000247'}" compartment="c" fbc:charge="-1" fbc:chemicalFormula="C19H18N7O6">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -1618,6 +1692,21 @@
                   <rdf:li rdf:resource="http://identifiers.org/cas/86-01-1"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00044"/>
                   <rdf:li rdf:resource="http://identifiers.org/pubchem.compound/6830"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </species>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_Glutaryl_CoA_m" name="Glutaryl-CoA" metaid="M_Glutaryl_CoA_m" sboTerm="{'SBO:0000247'}" compartment="m" fbc:charge="-4" fbc:chemicalFormula="C26H38N7O19P3S1">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#M_Glutaryl_CoA_m">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/cas/103192-48-9"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00527"/>
+                  <rdf:li rdf:resource="http://identifiers.org/pubchem.compound/439252"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2087,6 +2176,49 @@
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C03912"/>
                   <rdf:li rdf:resource="http://identifiers.org/pubchem.compound/440162"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </species>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_L_2_Aminoadipate_6_semialdehyde_c" name="L-2-Aminoadipate_6-semialdehyde" metaid="M_L_2_Aminoadipate_6_semialdehyde_c" sboTerm="{'SBO:0000247'}" compartment="c" fbc:charge="0" fbc:chemicalFormula="C6H11N1O3">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#M_L_2_Aminoadipate_6_semialdehyde_c">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C04076"/>
+                  <rdf:li rdf:resource="http://identifiers.org/pubchem.compound/160603"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </species>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_L_2_Aminoadipate_6_semialdehyde_m" name="L-2-Aminoadipate_6-semialdehyde" metaid="M_L_2_Aminoadipate_6_semialdehyde_m" sboTerm="{'SBO:0000247'}" compartment="m" fbc:charge="0" fbc:chemicalFormula="C6H11N1O3">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#M_L_2_Aminoadipate_6_semialdehyde_m">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C04076"/>
+                  <rdf:li rdf:resource="http://identifiers.org/pubchem.compound/160603"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </species>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_L_2_Aminoadipate_m" name="L-2-Aminoadipate" metaid="M_L_2_Aminoadipate_m" sboTerm="{'SBO:0000247'}" compartment="m" fbc:charge="-1" fbc:chemicalFormula="C6H10N1O4">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#M_L_2_Aminoadipate_m">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/cas/542-32-5"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00956"/>
+                  <rdf:li rdf:resource="http://identifiers.org/pubchem.compound/92136"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -2805,6 +2937,21 @@
                   <rdf:li rdf:resource="http://identifiers.org/cas/147-85-3"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00148"/>
                   <rdf:li rdf:resource="http://identifiers.org/pubchem.compound/145742"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </species>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_L_Saccharopine_c" name="L-Saccharopine" metaid="M_L_Saccharopine_c" sboTerm="{'SBO:0000247'}" compartment="c" fbc:charge="-2" fbc:chemicalFormula="C11H18N2O6">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#M_L_Saccharopine_c">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/cas/997-68-2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00449"/>
+                  <rdf:li rdf:resource="http://identifiers.org/pubchem.compound/160556"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -3609,6 +3756,20 @@
             <rdf:Description rdf:about="#M_RNA_c">
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
                 <rdf:Bag/>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </species>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_S_3_hydroxybutanoyl_CoA_m" name="S-3-hydroxybutanoyl-CoA" metaid="M_S_3_hydroxybutanoyl_CoA_m" sboTerm="{'SBO:0000247'}" compartment="m" fbc:charge="-3" fbc:chemicalFormula="C25H39N7O18P3S1">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#M_S_3_hydroxybutanoyl_CoA_m">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01144"/>
+                  <rdf:li rdf:resource="http://identifiers.org/pubchem.compound/439419"/>
+                </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
@@ -4667,6 +4828,19 @@
           </rdf:RDF>
         </sbml:annotation>
       </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_106608880" fbc:label="106608880" fbc:name="106608880" metaid="G_106608880" sboTerm="{'SBO:0000243'}">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#G_106608880">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/106608880"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_106612549" fbc:label="106612549" fbc:name="106612549" metaid="G_106612549" sboTerm="{'SBO:0000243'}">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -4700,6 +4874,32 @@
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/106561133"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_106584550" fbc:label="106584550" fbc:name="106584550" metaid="G_106584550" sboTerm="{'SBO:0000243'}">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#G_106584550">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/106584550"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_106561127" fbc:label="106561127" fbc:name="106561127" metaid="G_106561127" sboTerm="{'SBO:0000243'}">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#G_106561127">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/106561127"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -4817,6 +5017,32 @@
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/106587404"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_106603558" fbc:label="106603558" fbc:name="106603558" metaid="G_106603558" sboTerm="{'SBO:0000243'}">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#G_106603558">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/106603558"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_100194920" fbc:label="100194920" fbc:name="100194920" metaid="G_100194920" sboTerm="{'SBO:0000243'}">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#G_100194920">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/100194920"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -5512,6 +5738,19 @@
           </rdf:RDF>
         </sbml:annotation>
       </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_100194754" fbc:label="100194754" fbc:name="100194754" metaid="G_100194754" sboTerm="{'SBO:0000243'}">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#G_100194754">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/100194754"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_106592019" fbc:label="106592019" fbc:name="106592019" metaid="G_106592019" sboTerm="{'SBO:0000243'}">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -5740,19 +5979,6 @@
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/106578507"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_100194754" fbc:label="100194754" fbc:name="100194754" metaid="G_100194754" sboTerm="{'SBO:0000243'}">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#G_100194754">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/100194754"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -9555,6 +9781,71 @@
           </rdf:RDF>
         </sbml:annotation>
       </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_106610339" fbc:label="106610339" fbc:name="106610339" metaid="G_106610339" sboTerm="{'SBO:0000243'}">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#G_106610339">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/106610339"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_100195275" fbc:label="100195275" fbc:name="100195275" metaid="G_100195275" sboTerm="{'SBO:0000243'}">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#G_100195275">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/100195275"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_100194570" fbc:label="100194570" fbc:name="100194570" metaid="G_100194570" sboTerm="{'SBO:0000243'}">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#G_100194570">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/100194570"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_106603767" fbc:label="106603767" fbc:name="106603767" metaid="G_106603767" sboTerm="{'SBO:0000243'}">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#G_106603767">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/106603767"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_106611334" fbc:label="106611334" fbc:name="106611334" metaid="G_106611334" sboTerm="{'SBO:0000243'}">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#G_106611334">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/106611334"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </fbc:geneProduct>
       <fbc:geneProduct fbc:id="G_106566383" fbc:label="106566383" fbc:name="106566383" metaid="G_106566383" sboTerm="{'SBO:0000243'}">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -10524,6 +10815,58 @@
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/106587738"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_106607075" fbc:label="106607075" fbc:name="106607075" metaid="G_106607075" sboTerm="{'SBO:0000243'}">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#G_106607075">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/106607075"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_106589338" fbc:label="106589338" fbc:name="106589338" metaid="G_106589338" sboTerm="{'SBO:0000243'}">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#G_106589338">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/106589338"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_106601351" fbc:label="106601351" fbc:name="106601351" metaid="G_106601351" sboTerm="{'SBO:0000243'}">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#G_106601351">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/106601351"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_106564571" fbc:label="106564571" fbc:name="106564571" metaid="G_106564571" sboTerm="{'SBO:0000243'}">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#G_106564571">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/106564571"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -11928,6 +12271,19 @@
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/106560865"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_106569142" fbc:label="106569142" fbc:name="106569142" metaid="G_106569142" sboTerm="{'SBO:0000243'}">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#G_106569142">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/106569142"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14411,19 +14767,6 @@
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/106561658"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-      </fbc:geneProduct>
-      <fbc:geneProduct fbc:id="G_106569142" fbc:label="106569142" fbc:name="106569142" metaid="G_106569142" sboTerm="{'SBO:0000243'}">
-        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#G_106569142">
-              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/106569142"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17784,6 +18127,31 @@
           <fbc:geneProductRef fbc:geneProduct="G_100195559"/>
         </fbc:geneProductAssociation>
       </reaction>
+      <reaction fast="false" id="R_aadat1" reversible="true" name="aminoadipate aminotransferase" metaid="R_aadat1" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#R_aadat1">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.6.1.39"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R01939"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+        <listOfReactants>
+          <speciesReference constant="true" species="M_2_Oxoglutarate_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_L_2_Aminoadipate_m" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_2_Oxoadipate_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_L_Glutamate_m" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_106608880"/>
+        </fbc:geneProductAssociation>
+      </reaction>
       <reaction fast="false" id="R_aaox1" reversible="false" name="L-amino-acid oxidase" metaid="R_aaox1" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -17812,6 +18180,68 @@
             <fbc:geneProductRef fbc:geneProduct="G_106561133"/>
             <fbc:geneProductRef fbc:geneProduct="G_106580948"/>
             <fbc:geneProductRef fbc:geneProduct="G_106612549"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_aass1" reversible="false" name="aminoadipate-semialdehyde synthase" metaid="R_aass1" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#R_aass1">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/1.5.1.8"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00716"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+        <listOfReactants>
+          <speciesReference constant="true" species="M_2_Oxoglutarate_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_L_Lysine_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_NADPH_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_H2O_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_L_Saccharopine_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_NADP_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_106561127"/>
+            <fbc:geneProductRef fbc:geneProduct="G_106584550"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_aass2" reversible="false" name="aminoadipate-semialdehyde synthase" metaid="R_aass2" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#R_aass2">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/1.5.1.8"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R02313"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+        <listOfReactants>
+          <speciesReference constant="true" species="M_H2O_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_L_Saccharopine_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_NAD_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_L_2_Aminoadipate_6_semialdehyde_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_L_Glutamate_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_NADH_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_106561127"/>
+            <fbc:geneProductRef fbc:geneProduct="G_106584550"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -17909,6 +18339,33 @@
             <fbc:geneProductRef fbc:geneProduct="G_106587404"/>
             <fbc:geneProductRef fbc:geneProduct="G_106589763"/>
             <fbc:geneProductRef fbc:geneProduct="G_106591329"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_acat2" reversible="true" name="acetyl-CoA acetyltransferase" metaid="R_acat2" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#R_acat2">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.9"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00238"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+        <listOfReactants>
+          <speciesReference constant="true" species="M_Acetoacetyl_CoA_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_CoA_m" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_Acetyl_CoA_m" stoichiometry="2"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_100194920"/>
+            <fbc:geneProductRef fbc:geneProduct="G_106603558"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -18255,6 +18712,33 @@
             <fbc:geneProductRef fbc:geneProduct="G_106574201"/>
             <fbc:geneProductRef fbc:geneProduct="G_106598450"/>
           </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_al7a1" reversible="true" name="aldehyde dehydrogenase 7 family" metaid="R_al7a1" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#R_al7a1">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/1.2.1.31"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R03103"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+        <listOfReactants>
+          <speciesReference constant="true" species="M_H2O_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_L_2_Aminoadipate_6_semialdehyde_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_NAD_m" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_L_2_Aminoadipate_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_NADH_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_h_m" stoichiometry="2"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_100194754"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_ald2" reversible="false" name="aldehyde dehydrogenase cytosolic" metaid="R_ald2" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -19937,6 +20421,64 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
+      <reaction fast="false" id="R_echp1" reversible="true" name="enoyl-CoA hydratase" metaid="R_echp1" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#R_echp1">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.1.35"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R01975"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+        <listOfReactants>
+          <speciesReference constant="true" species="M_NAD_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_S_3_hydroxybutanoyl_CoA_m" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_Acetoacetyl_CoA_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_NADH_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_h_m" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_100195275"/>
+            <fbc:geneProductRef fbc:geneProduct="G_106610339"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_echs1" reversible="false" name="enoyl-CoA hydratase" metaid="R_echs1" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#R_echs1">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/4.2.1.17"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R05595"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+        <listOfReactants>
+          <speciesReference constant="true" species="M_2_Butenoyl_CoA_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_H2O_m" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_S_3_hydroxybutanoyl_CoA_m" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_100194570"/>
+            <fbc:geneProductRef fbc:geneProduct="G_100195275"/>
+            <fbc:geneProductRef fbc:geneProduct="G_106603767"/>
+            <fbc:geneProductRef fbc:geneProduct="G_106611334"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
       <reaction fast="false" id="R_eno" reversible="true" name="enolase" metaid="R_eno" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -20789,6 +21331,38 @@
             <fbc:geneProductRef fbc:geneProduct="G_106562859"/>
             <fbc:geneProductRef fbc:geneProduct="G_106587738"/>
             <fbc:geneProductRef fbc:geneProduct="G_106595761"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_gcdh1" reversible="true" name="glutaryl-CoA dehydrogenase" metaid="R_gcdh1" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#R_gcdh1">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/1.3.8.6"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R02487"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+        <listOfReactants>
+          <speciesReference constant="true" species="M_FAD_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_Glutaryl_CoA_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_h_m" stoichiometry="2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_2_Butenoyl_CoA_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_CO2_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_FADH2_m" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_106564571"/>
+            <fbc:geneProductRef fbc:geneProduct="G_106589338"/>
+            <fbc:geneProductRef fbc:geneProduct="G_106601351"/>
+            <fbc:geneProductRef fbc:geneProduct="G_106607075"/>
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
@@ -21719,6 +22293,33 @@
             <fbc:geneProductRef fbc:geneProduct="G_106610355"/>
             <fbc:geneProductRef fbc:geneProduct="G_106594690"/>
           </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_kgd1a1" reversible="false" name="2-oxoglutarate dehydrogenase" metaid="R_kgd1a1" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#R_kgd1a1">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/1.2.4.2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R01933"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+        <listOfReactants>
+          <speciesReference constant="true" species="M_2_Oxoadipate_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_CoA_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_NAD_m" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_CO2_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_Glutaryl_CoA_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_NADH_m" stoichiometry="1"/>
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_106569142"/>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_kith1" reversible="false" name="thymidine kinase" metaid="R_kith1" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
@@ -26533,6 +27134,23 @@
         <listOfProducts>
           <speciesReference constant="true" species="M_beta_D_Glucose_e" stoichiometry="1"/>
           <speciesReference constant="true" species="M_h_e" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction fast="false" id="R_T_Aminoadipate_6_semialdehyde_mit" reversible="false" name="[]" metaid="R_T_Aminoadipate_6_semialdehyde_mit" sboTerm="{'SBO:0000655'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#R_T_Aminoadipate_6_semialdehyde_mit">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag/>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+        <listOfReactants>
+          <speciesReference constant="true" species="M_L_2_Aminoadipate_6_semialdehyde_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_L_2_Aminoadipate_6_semialdehyde_m" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
       <reaction fast="false" id="R_T_bGlc" reversible="true" name="[]" metaid="R_T_bGlc" sboTerm="{'SBO:0000655'}" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_default_lb">
