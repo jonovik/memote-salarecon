@@ -18378,7 +18378,6 @@
           <speciesReference constant="true" species="M_2_Oxoglutarate_c" stoichiometry="1"/>
           <speciesReference constant="true" species="M_L_Lysine_c" stoichiometry="1"/>
           <speciesReference constant="true" species="M_NADPH_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference constant="true" species="M_H2O_c" stoichiometry="1"/>
@@ -18414,7 +18413,6 @@
           <speciesReference constant="true" species="M_L_2_Aminoadipate_6_semialdehyde_c" stoichiometry="1"/>
           <speciesReference constant="true" species="M_L_Glutamate_c" stoichiometry="1"/>
           <speciesReference constant="true" species="M_NADH_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -19014,7 +19012,7 @@
         <listOfProducts>
           <speciesReference constant="true" species="M_NADH_c" stoichiometry="1"/>
           <speciesReference constant="true" species="M_beta_Alanine_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_h_c" stoichiometry="2"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -19144,6 +19142,7 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference constant="true" species="M_N_Formimino_L_glutamate_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -19845,7 +19844,7 @@
         <listOfProducts>
           <speciesReference constant="true" species="M_ADP_c" stoichiometry="1"/>
           <speciesReference constant="true" species="M_N_Phosphocreatine_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_h_c" stoichiometry="2"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -19886,7 +19885,7 @@
         <listOfProducts>
           <speciesReference constant="true" species="M_ADP_m" stoichiometry="1"/>
           <speciesReference constant="true" species="M_N_Phosphocreatine_m" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_h_m" stoichiometry="2"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -19954,7 +19953,7 @@
           <speciesReference constant="true" species="M_ADP_m" stoichiometry="2"/>
           <speciesReference constant="true" species="M_Carbamoyl_phosphate_m" stoichiometry="1"/>
           <speciesReference constant="true" species="M_Orthophosphate_m" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_m" stoichiometry="3"/>
+          <speciesReference constant="true" species="M_h_m" stoichiometry="2"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_106586447"/>
@@ -20516,7 +20515,6 @@
         <listOfProducts>
           <speciesReference constant="true" species="M_NADPH_c" stoichiometry="1"/>
           <speciesReference constant="true" species="M_Thymine_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -20526,10 +20524,10 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction fast="false" id="R_dpys" reversible="true" name="dihydropyrimidinase" metaid="R_dpys" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
+      <reaction fast="false" id="R_dpys1" reversible="true" name="dihydropyrimidinase" metaid="R_dpys1" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#R_dpys">
+            <rdf:Description rdf:about="#R_dpys1">
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/3.5.2.2"/>
@@ -20545,7 +20543,6 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference constant="true" species="M_N_Carbamoyl_beta_alanine_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_100380817"/>
@@ -20570,7 +20567,6 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference constant="true" species="M_3_Ureidoisobutyrate_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_100380817"/>
@@ -21101,6 +21097,7 @@
         <listOfReactants>
           <speciesReference constant="true" species="M_N_Formimino_L_glutamate_c" stoichiometry="1"/>
           <speciesReference constant="true" species="M_Tetrahydrofolate_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference constant="true" species="M_5_Formiminotetrahydrofolate_c" stoichiometry="1"/>
@@ -21593,7 +21590,7 @@
         <listOfReactants>
           <speciesReference constant="true" species="M_FAD_m" stoichiometry="1"/>
           <speciesReference constant="true" species="M_Glutaryl_CoA_m" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_m" stoichiometry="2"/>
+          <speciesReference constant="true" species="M_h_m" stoichiometry="1"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference constant="true" species="M_2_Butenoyl_CoA_m" stoichiometry="1"/>
@@ -21638,10 +21635,10 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction fast="false" id="R_gda" reversible="false" name="guanine aminohydrolase" metaid="R_gda" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_gda1" reversible="false" name="guanine aminohydrolase" metaid="R_gda1" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#R_gda">
+            <rdf:Description rdf:about="#R_gda1">
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/3.5.4.3"/>
@@ -21654,6 +21651,7 @@
         <listOfReactants>
           <speciesReference constant="true" species="M_Guanine_c" stoichiometry="1"/>
           <speciesReference constant="true" species="M_H2O_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference constant="true" species="M_NH4_c" stoichiometry="1"/>
@@ -22173,10 +22171,10 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction fast="false" id="R_hprt" reversible="false" name="XMP:pyrophosphate phosphoribosyltransferase" metaid="R_hprt" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_hprt1" reversible="false" name="XMP:pyrophosphate phosphoribosyltransferase" metaid="R_hprt1" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#R_hprt">
+            <rdf:Description rdf:about="#R_hprt1">
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/2.4.2.8"/>
@@ -22193,6 +22191,7 @@
         <listOfProducts>
           <speciesReference constant="true" species="M_Pyrophosphate_c" stoichiometry="1"/>
           <speciesReference constant="true" species="M_XMP_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -23048,10 +23047,10 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction fast="false" id="R_mmsa" reversible="false" metaid="R_mmsa" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_mmsa1" reversible="false" metaid="R_mmsa1" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#R_mmsa">
+            <rdf:Description rdf:about="#R_mmsa1">
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.2.1.18"/>
@@ -23070,7 +23069,6 @@
           <speciesReference constant="true" species="M_Acetyl_CoA_c" stoichiometry="1"/>
           <speciesReference constant="true" species="M_CO2_c" stoichiometry="1"/>
           <speciesReference constant="true" species="M_NADH_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -24214,6 +24212,7 @@
         <listOfReactants>
           <speciesReference constant="true" species="M_2_Oxoglutarate_m" stoichiometry="1"/>
           <speciesReference constant="true" species="M_Thiamine_diphosphate_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_h_m" stoichiometry="4"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference constant="true" species="M_3_Carboxy_1_hydroxypropyl_thiamine_diphosphate_m" stoichiometry="1"/>
@@ -24250,6 +24249,7 @@
         <listOfProducts>
           <speciesReference constant="true" species="M_S_Succinyldihydrolipoamide_m" stoichiometry="1"/>
           <speciesReference constant="true" species="M_Thiamine_diphosphate_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_h_m" stoichiometry="3"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -24297,10 +24297,10 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction fast="false" id="R_ohcudc" reversible="false" name="OHCU decarboxylase" metaid="R_ohcudc" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_ohcudc1" reversible="false" name="OHCU decarboxylase" metaid="R_ohcudc1" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#R_ohcudc">
+            <rdf:Description rdf:about="#R_ohcudc1">
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/4.1.1.97"/>
@@ -24312,6 +24312,7 @@
         </sbml:annotation>
         <listOfReactants>
           <speciesReference constant="true" species="M_OHCU_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference constant="true" species="M_Allantoin_c" stoichiometry="1"/>
@@ -24995,7 +24996,7 @@
         <listOfReactants>
           <speciesReference constant="true" species="M_L_1_Pyrroline_5_carboxylate_c" stoichiometry="1"/>
           <speciesReference constant="true" species="M_NADPH_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_c" stoichiometry="2"/>
+          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference constant="true" species="M_L_Proline_c" stoichiometry="1"/>
@@ -25021,6 +25022,7 @@
         <listOfReactants>
           <speciesReference constant="true" species="M_H2O_c" stoichiometry="1"/>
           <speciesReference constant="true" species="M_L_1_Pyrroline_5_carboxylate_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference constant="true" species="M_L_Glutamate_5_semialdehyde_c" stoichiometry="1"/>
@@ -26250,6 +26252,7 @@
           <speciesReference constant="true" species="M_H2O_c" stoichiometry="1"/>
           <speciesReference constant="true" species="M_O2_c" stoichiometry="1"/>
           <speciesReference constant="true" species="M_Spermine_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_h_c" stoichiometry="2"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference constant="true" species="M_3_Aminopropanal_c" stoichiometry="1"/>
@@ -26263,10 +26266,10 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction fast="false" id="R_ssdh" reversible="false" name="succinate-semialdehyde dehydrogenase" metaid="R_ssdh" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_ssdh1" reversible="false" name="succinate-semialdehyde dehydrogenase" metaid="R_ssdh1" sboTerm="{'SBO:0000176'}" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#R_ssdh">
+            <rdf:Description rdf:about="#R_ssdh1">
               <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.2.1.24"/>
@@ -26284,7 +26287,7 @@
         <listOfProducts>
           <speciesReference constant="true" species="M_NADH_m" stoichiometry="1"/>
           <speciesReference constant="true" species="M_Succinate_m" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_m" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_h_m" stoichiometry="2"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="G_106605473"/>
@@ -26571,7 +26574,7 @@
         <listOfReactants>
           <speciesReference constant="true" species="M_H2O_c" stoichiometry="1"/>
           <speciesReference constant="true" species="M_N_Carbamoyl_beta_alanine_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_c" stoichiometry="2"/>
+          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference constant="true" species="M_CO2_c" stoichiometry="1"/>
